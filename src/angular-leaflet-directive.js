@@ -88,7 +88,7 @@ leafletDirective.directive('leaflet', [
             setupCenter();
             setupMaxBounds();
             setupBounds();
-            setupMainMaerker();
+            setupMainMarker();
             setupMarkers();
             setupPaths();
             setupEvents();
@@ -238,7 +238,7 @@ leafletDirective.directive('leaflet', [
                 });
             }
 
-            function setupMainMaerker() {
+            function setupMainMarker() {
                 var main_marker;
                 if (!$scope.marker) {
                     return;
